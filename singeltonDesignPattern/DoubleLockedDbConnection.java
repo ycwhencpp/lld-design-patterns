@@ -1,7 +1,7 @@
 package singeltonDesignPattern;
 
 public class DoubleLockedDbConnection {
-    static DoubleLockedDbConnection dbobj;
+    volatile static DoubleLockedDbConnection dbobj;
 
     private DoubleLockedDbConnection() {
 
@@ -13,7 +13,6 @@ public class DoubleLockedDbConnection {
                 if (dbobj == null) {
                     dbobj = new DoubleLockedDbConnection();
                 }
-                return dbobj;
             }
         }
         return dbobj;
