@@ -1,4 +1,4 @@
-package MachineCoding;
+package MachineCoding.ConferenceRoomBookingManagement;
 
 public class StandardBookingStrategy implements BookingStartegy {
 

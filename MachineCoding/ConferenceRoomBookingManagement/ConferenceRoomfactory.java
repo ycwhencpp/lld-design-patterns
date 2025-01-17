@@ -1,4 +1,4 @@
-package MachineCoding;
+package MachineCoding.ConferenceRoomBookingManagement;
 import MachineCoding.*;
 
 public class ConferenceRoomfactory implements RoomFactory {

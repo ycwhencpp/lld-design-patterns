@@ -1,4 +1,4 @@
-package MachineCoding;
+package MachineCoding.ConferenceRoomBookingManagement;
 
 public interface RoomFactory {
     public ConferenceRoom createRoom(String roomId, RoomType roomType);

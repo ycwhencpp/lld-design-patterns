@@ -1,4 +1,4 @@
-package MachineCoding;
+package MachineCoding.ConferenceRoomBookingManagement;
 
 public enum RoomType {
     SMALL(5), MEDIUM(10), LARGE(20);

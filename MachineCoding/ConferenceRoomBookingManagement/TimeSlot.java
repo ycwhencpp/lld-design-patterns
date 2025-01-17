@@ -1,4 +1,4 @@
-package MachineCoding;
+package MachineCoding.ConferenceRoomBookingManagement;
 public class TimeSlot {
     private int startHour;
     private int endHour;

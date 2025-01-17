@@ -1,4 +1,4 @@
-package MachineCoding;
+package MachineCoding.ConferenceRoomBookingManagement;
 
 import java.util.ArrayList;
 import java.util.HashSet;
